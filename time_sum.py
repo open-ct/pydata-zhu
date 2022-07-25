@@ -1,6 +1,5 @@
 import pandas as pd
 import demjson3
-
 data1 = pd.read_excel("文化A卷整理.xlsx",converters = {'ticket_id' : str})
 data3 = pd.read_excel("文化Z卷整理.xlsx",converters = {'ticket_id' : str})
 data2 = pd.read_csv("678.csv", encoding="utf-8",converters={'ticket_id' : str})
